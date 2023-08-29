@@ -10,6 +10,3 @@ WORKDIR /var/www/html
 VOLUME /var/log/apache2
 ADD kool.tar.gz /var/www/html
 COPY kool.tar.gz /var/www/html
-
-
-
